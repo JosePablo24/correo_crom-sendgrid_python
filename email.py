@@ -5,6 +5,6 @@ message = sendrig.Mail()
 
 message.add_to("mmoreno@ids.upchiapas.edu.mx")
 message.set_from("joxesandoval.24@gmail.com")
-message.set_subject("")
+message.set_subject("                      ")
 message.set_html("Prueba comd")
 client.send(message)
